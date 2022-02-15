@@ -26,6 +26,9 @@ public class DemoClass {
 	}
 	
 	public void getInfo() {
+		String fullName = "Khong dung";
+		String nullName;
+		
 		System.out.println(this.name + " is " + this.age + " years old");
 	}
 	
