@@ -5,10 +5,10 @@ public class DemoTestFunction {
 		if (num > 5) {
 			return 5 * num;
 		}
-		return 0;
+		return num;
 	}
 	
 	public static void main(String[] args) {
-		System.out.println(playWithFive(5));
+		System.out.println(playWithFive(8));
 	}
 }
