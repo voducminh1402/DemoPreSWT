@@ -6,7 +6,7 @@ public class DemoTestFunction {
 		if (num > 5) {
 			flag = 5 * num;
 		}
-		return flag;
+		return "a";
 	}
 	
 	public static void main(String[] args) {
