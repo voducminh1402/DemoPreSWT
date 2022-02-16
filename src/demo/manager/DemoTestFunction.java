@@ -1,10 +1,14 @@
 package demo.manager;
 
 public class DemoTestFunction {
-	public int doubleNumberFive(int num) {
+	public static int playWithFive(int num) {
 		if (num > 5) {
-			return 5 * 5;
+			return 5 * num;
 		}
 		return 0;
+	}
+	
+	public static void main(String[] args) {
+		System.out.println(playWithFive(5));
 	}
 }
